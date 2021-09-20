@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" stype="text/css" href="default.css" />
+  </head>
+  <body id="back">
+    <div class="card">
+      <div class="section">
+        <div id="front" class="items">
+          <span>{{Word}}</span>
+        </div>
+        <hr />
+        <div id="phonetic" class="items">
+          <span>{{Reading}} {{发音}}</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <div id="sentence" class="items">{{例句}}</div>
+      </div>
+
+      <!-- back section -->
+      <div class="section">
+        <div id="def" class="items">{{释义}}</div>
+      </div>
+
+      <div class="section">
+        <div id="note" class="items">{{Word Frequency}}</div>
+      </div>
+    </div>
+  </body>
+</html>

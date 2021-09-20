@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container > a,
+      a:hover,
+      a:active,
+      a:link,
+      a:visited {
+        color: #ffffff;
+      }
+
+      a {
+        text-decoration: none;
+        padding: 30px;
+      }
+      a:nth-child(odd) {
+        background-color: red;
+      }
+      a:nth-child(even) {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <a href="/front.html">Front Card</a>
+    <a href="/back.html">Back Card</a>
+  </body>
+</html>
